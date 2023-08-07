@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.typekit.net/adt4ajd.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <style>
+    body {
+      background-image: url('heroLanding.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      /* opacity: .3; */
+    }
+  </style>
+
+  <header class="navigation">
+    <div class="inline-block logo">
+      <img src="images/Logo_Styles10.svg" alt="logo">
+    </div>
+
+    <nav class="inline-block">
+      <ul>
+        <li class="inline-block"><a href="#aboutMe-container">About</a></li>
+        <li class="inline-block"><a href="#mySkills-container">Skills</a></li>
+        <li class="inline-block"><a href="#myWork-Grid">Work</a></li>
+        <li class="inline-block"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero-container" class="hero">
+    <h1>
+      Hello, I'm 
+    </h1>
+    <img src="images/logoHero.png" alt=" my name" height="355" width="700">
+    <h3>
+      Designer, Developer, Dreamer...
+    </h3>
+  </section>
+
+  <section id="aboutMe-container" class="aboutMe">
+    <div class="cs-container">
+      <h2>
+        Allow Me to Introduce Myself
+      </h2>
+      <img class="girlOnSwing" src="images/Girl_on_Swing.png" alt="girl on swing" width="300" height="300"
+    >
+      <p>
+        For as long as I can remember I have been a dreamer. My thoughts would take me into the 
+        unknown, wondering how I could recreate the beauty that existed within the walls of my 
+        imagination. Then I discovered the world of UX/UI design and I realized that I could indeed 
+        breathe life into the beauty that this world has to offer. 
+      </p>
+      <p>
+        I invite you to catch a glimpse of the beauty that I can create. Keep in mind that my online 
+        portfolio is just that, a glimpse. If you would like to see more, feel free to reach out to me!
+      </p>
+
+      <a href="resume.html" class="myButton">Download Resume</a>
+    </div>
+  </section>
+
+   <!--  My Skills section coded using CSS flex -->
+   <section id="mySkills-container" class="mySkillsSection">
+    <h4>
+      My Skills
+    </h4>
+    <div class="flexContainer">
+      <!-- Child Container -->
+      <div class="skillCard">
+        <h7 id="emphasisColor">
+          User Research
+        </h7>
+        <div class="skillImage"><img src="images/Prioritization Matrix.png" alt="Prioritization Matrix" width="100%"></div>
+        <p id="description">
+          This text describes how important user research is.
+        </p>
+      </div>
+      <!-- Child Container -->
+      <div class="skillCard">
+        <h7 id="emphasisColor">
+          Illustrating
+        </h7>
+        <div class="skillImage"><img src="images/WeMind Sketch Mockups.png" alt="Images of hand drawn sketches" width="100%"></div>
+        <p id="description">
+          This text describes how important it is to sketch out the initial prototype.
+        </p>
+      </div>
+      <!-- Child Container -->
+      <div class="skillCard">
+        <h7 id="emphasisColor">
+          Information Architecture
+        </h7>
+        <div class="skillImage"><img src="images/govtAnalysis.png" alt="redlined low fidelity wireframe" width="100%"></div>
+        <p id="description">
+          This text describes how important Information Architecture is.
+        </p>
+      </div>
+    </div>
+    <div class="toolsList">
+      <h7 id="emphasisColor">Tools I Know: Figma, AdobeXD, InVision, Google Drive, Photoshop</h7>
+    </div>
+   </section>
+
+
+  <!--  My Work section coded using CSS flex NEW -->
+  <section id="myWork-container" class="myWorkSection">
+  <!--  Parent Container -->
+  <div class="myWork-Grid">
+    <!--  Child Container -->
+    <div class="sectionTitle"><h4>My Work</h4></div>
+
+    <!--  Child Container -->
+    <div class="projects">
+      <!--  Grandchild Container -->
+      <div class="project-Card1">
+        <div class="image1"><img src="images/WeMindGroupMockup.png" alt="mobile prototype" width="516px" height="400px"></div>
+        <div class="subTitle1"><h7>Mobile Prototype:<br></h7>
+          <h7 id="emphasisColor">WeMind</h7></div>
+        <div class="paragraph1"><p id="description">For this project, the task was to create a mobile prototype. In this case, it was a mental health application that would enable users to access help with ease.</p>
+          <div class="viewMore"><button>View More</button></div>
+      </div>
+
+      <!--  Grandchild Container -->
+      <div class="project-Card2">
+        <div class="image2"><img src="images/SAMHSA Mockup.png" alt="desktop prototype" width="516px" height="400px"></div>
+        <div class="subTitle2"><h7>Government Agency Redesign:<br></h7>
+          <h7 id="emphasisColor">SAMHSA.GOV</h7></div>
+        <div class="paragraph2"><p id="description">Ever landed on a webpage that was shouting out for a makeover? That’s what this project was for, to breathe life back into a government agency website. In this case it was for the Substance Abuse and Mental Health Services Administration.</p>
+          <div class="viewMore"><button>View More</button></div>
+      </div>
+
+      <!--  Grandchild Container -->
+      <div class="project-Card3">
+        <div class="image3"><img src="images/Compass Connections Mockup.png" alt="desktop prototype" width="516px" height="400px"></div>
+        <div class="subTitle3"><h7>Non-Profit Agency Redesign:<br></h7>
+          <h7 id="emphasisColor">Compass Connections</h7></div>
+        <div class="paragraph3"><p id="description">This project was one that I became very passionate about.The agency is making such a positive impact on the lives of the children that do not have a voice. Redesigning this website will ensure more children get the help and resources that they desperately need.</p>
+          <div class="viewMore"><button>View More</button></div>
+      </div>
+    </div>
+
+    <!--  Child Container -->
+    <div class="sectionClose"><h7 id="emphasisColor">View All Projects</h7></div>
+  </div>
+</section>
+
+   <!--  Contact Me section -->
+   <section id="contactMeSection">
+    <div class="contactMe-container">
+     <div class="contactCard">
+       <div class="headline"><h4 id="darkVar">FIND ME ONLINE</h4></div>
+       <div class="websiteIntro"><H7 id="emphasisColor">My Website:</H7></div>
+       <div class="websiteAddress"><h7>alonzojen.github.io/a-designers-memoir</h7></div>
+       <div class="socialIntro"><h7 id="emphasisColor">My LinkedIn:</h7></div>
+       <div class="socialAddress"><h7>linkedin.com/in/jeanette-alonzo-uxui/></h7></div>
+     </div>
+ 
+     <div class="contactInfo">
+       <div class="contactSubtitle"><h5> Other Contact Information</h5></div>
+       <div class="icon1"><img src="images/phoneEmojiWhite.png" alt="phone emoji" height="80px" width="80px"></div>
+       <div class="phoneIntro"><h7 id="emphasisColor"> Phone: </h7></div>
+       <div class="numberInfo"><h7> (210) 663-3853</h7></div>
+       <div class="icon2"><img src="images/paperPlaneEmojiWhite.png" alt="paper plane emoji" height="80px" width="80px"></div>
+       <div class="emailIntro"><h7 id="emphasisColor"> Email: </h7></div>
+       <div class="emailInfo"><h7> jalonzo0722@gmail.com</h7></div>
+     </div>
+ 
+     <div class="contactClosing">
+       <div class="icon3"><img src="images/heartEyesEmoji.png" alt="heart eye emoji" height="100px" width="100px"></div>
+       <div class="paragraphClosing"><h5> I would love to talk with you to share my work and answer any questions you may have.</h5></div>
+     </div>
+   </div>
+ </section>
+
+
+   <!--  Footer  -->
+  <footer>
+    <div class="copyright-line">
+      <img src="images/copyrightTagline.png" alt="copyright Information" width="300px" height="40px">
+    </div>
+
+    <ul class="inline-block">
+      <li class="inline-block"><a href="#https://www.linkedin.com/in/jeanette-alonzo-uxui/"> <img src="images/linkedin-box-fill.png" alt="linkedIn logo" height="36px" width="36px"></a></li>
+      <li class="inline-block"><a href="#https://twitter.com/home"><img src="images/twitter-fill.png" alt="twitter logo" height="36px" width="36px"></a></li>
+      <li class="inline-block"><a href="#jalonzo0722@gmail.com"><img src="images/mail-send-fill.png" alt="email logo" height="36px" width="36px"</a></li>
+    </ul>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="/js/index.js"> </script>
+</body>
+</html>
